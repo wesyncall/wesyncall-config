@@ -1,0 +1,4 @@
+zuul:
+  routes:
+    hello-service: /wesyncall-hello/**
+    feign-consumer: /wesyncall-feign/**
