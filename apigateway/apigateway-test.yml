@@ -2,3 +2,9 @@ zuul:
   routes:
     hello-service: /wesyncall-hello/**
     feign-consumer: /wesyncall-feign/**
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/test
+    username: '{cipher}AQB5xgxH55RpFQss7NO1mg42eTXF9WbHelIJ1yQC7cv9Z8Y7Ei5DuKLa1k4KkhtWL27JMFOLPDd+yDSpgt5e1Fj3IJzv6HQgJw46RrCulRtlRxkFktnYXKOg/7i1y2CT1tgwOz7A8e6EM692bogBGm/DZE+KfqHV3E5qn+RCtrUslCIjIcbt3Kj62f+aDu7o9CCfO389HhHqLH6Zvj4OfjMhjfrG4zhPoe6cNGLabW3oHamKmQ29TFqN0dGwP+YDfngQYmZ3QBGt2r71WgkwcpqHs1IRuu7hSZVVpfEttLi4IBWRnigm/Q8jd0kDbIfQrEAKZ+oafFU72fH9E7WDN74E45g6r+HzpEPbaYNNU8j1I2stisSxwRV+3Ne4V4Iu9Rs='
+    password: '{cipher}AQBR0+k/rUsZZ99KqNes1S1TfazayXnY+pKVWUhKhlFi91ZcoRSGH1iy5sknkwJBcIBrwkNXKC6/6Pd65kBDkxx9wN0u7t9Jit6CIaSDhOOLSNvLF1KgOR5dmf+1lAVOwNWV/00durOC7qq7IrFQoCkQPG6dyctbvbcdkJFjUS3H75EgRo8OUrAJ8zktIt+hU62d+WJzWvkyxFlRZyk41QSEe0yPKHS+rTDMMOMBw2T+mexpUB49cN6/B/EsbZ/cyTeRs5plWFSB3N7/vpJ37SOJA/QRsWYtGfqADMvmw1LCFGhqRGOvWvUYH82CIS6iQcYHNkEoJ4XCCMj8O72Ghafn+/J4Fhz/RiefL3G/FP81LBcNErS/yUzT4bM0QkrEjRA='
+    driverClassName: com.mysql.jdbc.Driver
